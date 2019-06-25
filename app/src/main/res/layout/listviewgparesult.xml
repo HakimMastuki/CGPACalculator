@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtVwGpaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="25dp"
+        android:text="ID"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/txtVwGpaSem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester:"
+        android:layout_marginStart="55dp"
+        android:layout_alignBaseline="@+id/txtVwGpaID"
+        android:layout_alignBottom="@+id/txtVwGpaID"
+        android:layout_toEndOf="@+id/txtVwGpaID" />
+
+    <TextView
+        android:id="@+id/txtVwGpaTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="105dp"
+        android:text="GPA score:"
+        android:layout_alignBaseline="@+id/txtVwGpaSem"
+        android:layout_alignBottom="@+id/txtVwGpaSem"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

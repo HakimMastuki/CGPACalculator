@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtSemester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="No : " />
+
+        <TextView
+            android:id="@+id/edtCurrNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Subject:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="15dp"
+            android:text="Grade:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:text="Credit:" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="1. "/>
+
+        <EditText
+            android:id="@+id/edtSub1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spnGrade1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/grade_array" />
+
+            <Spinner
+                android:id="@+id/spnCredit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/credit_array"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="2. "/>
+
+        <EditText
+            android:id="@+id/edtSub2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spnGrade2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/grade_array"/>
+
+            <Spinner
+                android:id="@+id/spnCredit2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/credit_array"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="3. "/>
+
+        <EditText
+            android:id="@+id/edtSub3"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spnGrade3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/grade_array"/>
+
+            <Spinner
+                android:id="@+id/spnCredit3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/credit_array"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="4. "/>
+
+        <EditText
+            android:id="@+id/edtSub4"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spnGrade4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/grade_array"/>
+
+            <Spinner
+                android:id="@+id/spnCredit4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/credit_array"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="5. "/>
+
+        <EditText
+            android:id="@+id/edtSub5"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spnGrade5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/grade_array"/>
+
+            <Spinner
+                android:id="@+id/spnCredit5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/credit_array"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="6. "/>
+
+        <EditText
+            android:id="@+id/edtSub6"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spnGrade6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/grade_array"/>
+
+            <Spinner
+                android:id="@+id/spnCredit6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/credit_array"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="7. "/>
+
+        <EditText
+            android:id="@+id/edtSub7"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spnGrade7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/grade_array"/>
+
+            <Spinner
+                android:id="@+id/spnCredit7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/credit_array"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your GPA is: 0.00"
+            android:id="@+id/scoreGPA"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="fnCalculate"
+            android:id="@+id/fnCalculate"
+            android:text="CALCULATE" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:onClick="fnUpdate"
+            android:id="@+id/fnUpdate"
+            android:text="UPDATE" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:onClick="fnDelete"
+            android:id="@+id/fnDelete"
+            android:text="DELETE" />
+
+    </LinearLayout>
+
+</LinearLayout>
