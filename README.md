@@ -1,4 +1,10 @@
 # CGPACalculator
+
+<a href="https://ibb.co/k02jRNk"><img src="https://i.ibb.co/nfM9HxZ/Screenshot-20190625-130427.png" alt="Screenshot-20190625-130427" border="0"></a>
+<a href="https://ibb.co/phR6RMw"><img src="https://i.ibb.co/g4PbPf9/Screenshot-20190625-130446.png" alt="Screenshot-20190625-130446" border="0"></a>
+<a href="https://ibb.co/vVHrkfs"><img src="https://i.ibb.co/PFNbgJT/Screenshot-20190625-130453.png" alt="Screenshot-20190625-130453" border="0"></a>
+<a href="https://ibb.co/4Zcv5G3"><img src="https://i.ibb.co/wNTGxXj/Screenshot-20190625-130500.png" alt="Screenshot-20190625-130500" border="0"></a>
+
 TEAM MEMBERS:
 1.	ARUN A/L GANASAN (B031610429)
 2.	AHMAD FARHAN BIN ROZALI (B031610450)
